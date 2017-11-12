@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.c4q.inclass1112.MainActivity">
+
+    <TextView
+        android:id="@+id/favoritefood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my favorite foods" />
+
+    <EditText
+        android:id="@+id/userInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="enter your favorite food" />
+
+
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveFood"
+        android:text="submit"/>
+
+    <Button
+        android:id="@+id/matchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="match"
+        />
+</LinearLayout>
